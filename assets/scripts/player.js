@@ -16,27 +16,27 @@ cc.Class({
             url: cc.AudioClip
         }
     },
-    
-    setJumpActon: function() {
+
+    setJumpActon: function () {
         // 跳跃上升
         var jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         // 跳跃下降
         var jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
 
         var callback = cc.callFunc(this.playJumpSound, this);
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));  
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
 
     },
-    playJumpSound: function(){
+    playJumpSound: function () {
         cc.audioEngine.playEffect(this.jumpAudio, false);
     },
-    setInputControl: function(){
+    setInputControl: function () {
         var self = this;
         // 添加键盘控制
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
-            onKeyPressed: function(keyCode, event) {
-                switch(keyCode) {
+            onKeyPressed: function (keyCode, event) {
+                switch (keyCode) {
                     case cc.KEY.a:
                         self.accLeft = true;
                         self.accRight = false;
@@ -47,9 +47,9 @@ cc.Class({
                         break;
                 }
             },
-            onKeyReleased: function(keyCode, event) {
-                switch(keyCode){
-                    case cc.KEY.a: 
+            onKeyReleased: function (keyCode, event) {
+                switch (keyCode) {
+                    case cc.KEY.a:
                         self.accLeft = false;
                         break;
                     case cc.KEY.d:
@@ -59,6 +59,18 @@ cc.Class({
             }
         }, self.node);
     },
+    onPlayOver: function () {
+        if (this.node.getPosition().x > this.overLine - this.node.width) {
+            this.node.x = this.overLine - this.node.width;
+            this.xSpeed = 0
+            return;
+        }
+        if (this.node.getPosition().x < -this.overLine + this.node.width) {
+            this.node.x = -this.overLine + this.node.width;
+            this.xSpeed = 0
+            return;
+        }
+    },
     // use this for initialization
     onLoad: function () {
         // 初始化跳跃动作
@@ -67,19 +79,22 @@ cc.Class({
         this.accLeft = false;
         this.accRight = false;
         this.xSpeed = 0;
-        this.setInputControl()
+        this.setInputControl();
+        this.overLine = this.game.node.width / 2;
+        cc.log(this.node.width);
     },
 
     // called every frame, uncomment this function to activate update callback
     update: function (dt) {
-        if(this.accLeft) {
+        if (this.accLeft) {
             this.xSpeed -= this.accel * dt;
-        } else if(this.accRight) {
+        } else if (this.accRight) {
             this.xSpeed += this.accel * dt;
         };
-        if(Math.abs(this.xSpeed) > this.maxMoveSpeed) {
+        if (Math.abs(this.xSpeed) > this.maxMoveSpeed) {
             this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);
         };
         this.node.x += this.xSpeed * dt;
+        this.onPlayOver();
     },
 });

@@ -18,11 +18,6 @@ cc.Class({
   onPicker: function() {
     this.game.spawnNewStar();
     this.node.destroy();
-
-
-
-    
-    
   },
   update: function(dt) {
     if (this.getPlayerDistance() < this.pickRadius) {

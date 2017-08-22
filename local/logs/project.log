@@ -1,140 +1,93 @@
-2017-08-22T06:14:01.456Z - normal: Load ~/.CocosCreator/settings.json
-2017-08-22T06:14:01.460Z - normal: checking language setting...
-2017-08-22T06:14:01.460Z - normal: Language: zh
-2017-08-22T06:14:03.198Z - success: protocol editor-framework registered
-2017-08-22T06:14:03.198Z - success: protocol app registered
-2017-08-22T06:14:03.198Z - success: protocol theme registered
-2017-08-22T06:14:03.198Z - success: protocol profile registered
-2017-08-22T06:14:03.198Z - success: protocol packages registered
-2017-08-22T06:14:03.198Z - success: protocol unpack registerred
-2017-08-22T06:14:03.199Z - success: protocol disable-commonjs registerred
-2017-08-22T06:14:03.463Z - normal: connected!
-2017-08-22T06:14:03.472Z - normal: Check project D:\cocos\cocosDemo
-2017-08-22T06:14:03.480Z - normal: Initializing Cocos2d
-2017-08-22T06:14:03.913Z - normal: Initializing Asset Database
-2017-08-22T06:14:03.958Z - success: protocol uuid registerred
-2017-08-22T06:14:03.958Z - success: protocol db registerred
-2017-08-22T06:14:03.958Z - success: protocol thumbnail registerred
-2017-08-22T06:14:03.958Z - normal: Loading editor/builtin packages
-2017-08-22T06:14:04.011Z - success: anysdk loaded
-2017-08-22T06:14:04.159Z - success: assets loaded
-2017-08-22T06:14:04.162Z - success: builder loaded
-2017-08-22T06:14:04.165Z - success: hierarchy loaded
-2017-08-22T06:14:04.167Z - success: inspector loaded
-2017-08-22T06:14:04.168Z - success: keystore loaded
-2017-08-22T06:14:04.170Z - success: node-library loaded
-2017-08-22T06:14:04.172Z - success: package-asset loaded
-2017-08-22T06:14:04.174Z - success: preferences loaded
-2017-08-22T06:14:04.190Z - success: project-importer loaded
-2017-08-22T06:14:04.192Z - success: project-settings loaded
-2017-08-22T06:14:04.194Z - success: ui-kit loaded
-2017-08-22T06:14:04.196Z - success: ui-grid loaded
-2017-08-22T06:14:04.198Z - success: scene loaded
-2017-08-22T06:14:04.200Z - success: sprite-editor loaded
-2017-08-22T06:14:04.203Z - success: store loaded
-2017-08-22T06:14:04.207Z - success: timeline loaded
-2017-08-22T06:14:04.207Z - normal: Loading builtin packages
-2017-08-22T06:14:04.214Z - success: asset-db-debugger loaded
-2017-08-22T06:14:04.216Z - success: code-editor loaded
-2017-08-22T06:14:04.222Z - success: color-picker loaded
-2017-08-22T06:14:04.224Z - success: console loaded
-2017-08-22T06:14:04.226Z - success: package-manager loaded
-2017-08-22T06:14:04.238Z - success: sdkbox loaded
-2017-08-22T06:14:04.244Z - success: tester loaded
-2017-08-22T06:14:04.247Z - success: ui-kit-preview-extra loaded
-2017-08-22T06:14:04.249Z - success: ui-kit-preview loaded
-2017-08-22T06:14:04.250Z - success: ui-tree loaded
-2017-08-22T06:14:05.425Z - normal: Initializing project D:\cocos\cocosDemo
-2017-08-22T06:14:05.434Z - normal: Loading packages
-2017-08-22T06:14:05.447Z - normal: Watching packages
-2017-08-22T06:14:05.469Z - normal: Run Application
-2017-08-22T06:14:06.765Z - success: preview server running at http://localhost:7456
-2017-08-22T06:14:06.765Z - normal: Compiling scripts...
-2017-08-22T06:14:08.345Z - normal: Compiled project javascript file successfully
-2017-08-22T06:14:12.371Z - normal: 1.5.1
-2017-08-22T06:14:49.940Z - error: 项目名不合法, 只能包含这些字符: [0-9], [a-z], [A-Z], [_]. 并且 [-] 在 android 上也不支持.
-    at Vue._build (E:\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:15139)
-    at Vue._build (app://bower_components/vue/dist/vue.js:220:74)
-    at eval (E:\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:14573)
-    at EventEmitter.<anonymous> (E:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5795)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:201:7)
-2017-08-22T06:15:25.043Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "D:\\cocos\\cocosDemo\\build",
-  "debug": false,
-  "dest": "D:\\cocos\\cocosDemo\\build\\web-mobile",
-  "excludedModules": [],
-  "includeAnySDK": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.cocosDemo",
-  "platform": "web-mobile",
-  "previewHeight": 720,
-  "previewWidth": 1280,
-  "privateKey": "",
-  "renderMode": "0",
-  "scenes": [
-    {
-      "url": "db://assets/game.fire",
-      "uuid": "ab1e7d83-181b-4d46-bf38-47695282314e"
-    }
-  ],
-  "sourceMaps": false,
-  "startScene": "ab1e7d83-181b-4d46-bf38-47695282314e",
-  "template": "default",
-  "title": "EszCanJump",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "project": "D:\\cocos\\cocosDemo",
-  "projectName": "EszCanJump",
-  "runtimePath": "E:\\CocosCreator\\resources\\engine",
-  "debugBuildWorker": false
-}
-2017-08-22T06:15:25.046Z - normal: Building D:\cocos\cocosDemo
-2017-08-22T06:15:25.046Z - normal: Destination D:\cocos\cocosDemo\build\web-mobile
-2017-08-22T06:15:25.529Z - normal: Delete D:\cocos\cocosDemo\build\web-mobile\res/**/*
-2017-08-22T06:15:25.530Z - normal: Delete D:\cocos\cocosDemo\build\web-mobile\src/*/
-2017-08-22T06:15:27.151Z - normal: Compiled project javascript file successfully
-2017-08-22T06:15:27.151Z - normal: Start building assets
-2017-08-22T06:15:27.151Z - normal: Start spawn build-worker
-2017-08-22T06:15:28.003Z - normal: Finish spawn build-worker
-2017-08-22T06:15:28.003Z - normal: Start init build-worker
-2017-08-22T06:15:29.852Z - normal: 1.5.1
-2017-08-22T06:15:29.894Z - normal: Finish init build-worker
-2017-08-22T06:15:29.894Z - normal: Start build-assets in worker
-2017-08-22T06:15:30.170Z - normal: Finish build-assets in worker
-2017-08-22T06:15:30.176Z - normal: Finish building assets
-2017-08-22T06:15:30.185Z - normal: Start building raw assets
-2017-08-22T06:15:30.185Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\background.jpg to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\background.jpg
-2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\ground.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\ground.png
-2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\audio\score.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\score.mp3
-2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\star.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\star.png
-2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\PurpleMonster.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\PurpleMonster.png
-2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\audio\jump.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\jump.mp3
-2017-08-22T06:15:30.187Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\mikado_outline_shadow.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\mikado_outline_shadow.png
-2017-08-22T06:15:30.212Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\star.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\star.png
-2017-08-22T06:15:30.213Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\mikado_outline_shadow.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\mikado_outline_shadow.png
-2017-08-22T06:15:30.220Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\PurpleMonster.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\PurpleMonster.png
-2017-08-22T06:15:30.223Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\ground.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\ground.png
-2017-08-22T06:15:30.228Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\audio\jump.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\jump.mp3
-2017-08-22T06:15:30.234Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\background.jpg to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\background.jpg
-2017-08-22T06:15:30.234Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\audio\score.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\score.mp3
-2017-08-22T06:15:30.235Z - normal: Finish building raw assets
-2017-08-22T06:15:30.269Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
-2017-08-22T06:15:30.284Z - normal: Generating html from E:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
-2017-08-22T06:15:30.293Z - normal: Built to "D:\cocos\cocosDemo\build\web-mobile" successfully
+2017-08-22T08:10:46.537Z - normal: Load ~/.CocosCreator/settings.json
+2017-08-22T08:10:46.540Z - normal: checking language setting...
+2017-08-22T08:10:46.541Z - normal: Language: zh
+2017-08-22T08:10:47.993Z - success: protocol editor-framework registered
+2017-08-22T08:10:47.993Z - success: protocol app registered
+2017-08-22T08:10:47.993Z - success: protocol theme registered
+2017-08-22T08:10:47.993Z - success: protocol profile registered
+2017-08-22T08:10:47.993Z - success: protocol packages registered
+2017-08-22T08:10:47.993Z - success: protocol unpack registerred
+2017-08-22T08:10:47.994Z - success: protocol disable-commonjs registerred
+2017-08-22T08:10:48.236Z - normal: connected!
+2017-08-22T08:10:48.237Z - normal: Check project D:\cocos\cocosDemo
+2017-08-22T08:10:48.240Z - normal: Initializing Cocos2d
+2017-08-22T08:10:48.459Z - normal: Initializing Asset Database
+2017-08-22T08:10:48.490Z - success: protocol uuid registerred
+2017-08-22T08:10:48.490Z - success: protocol db registerred
+2017-08-22T08:10:48.491Z - success: protocol thumbnail registerred
+2017-08-22T08:10:48.491Z - normal: Loading editor/builtin packages
+2017-08-22T08:10:48.513Z - success: anysdk loaded
+2017-08-22T08:10:48.621Z - success: assets loaded
+2017-08-22T08:10:48.623Z - success: builder loaded
+2017-08-22T08:10:48.625Z - success: hierarchy loaded
+2017-08-22T08:10:48.627Z - success: inspector loaded
+2017-08-22T08:10:48.628Z - success: keystore loaded
+2017-08-22T08:10:48.630Z - success: node-library loaded
+2017-08-22T08:10:48.631Z - success: package-asset loaded
+2017-08-22T08:10:48.633Z - success: preferences loaded
+2017-08-22T08:10:48.644Z - success: project-importer loaded
+2017-08-22T08:10:48.646Z - success: project-settings loaded
+2017-08-22T08:10:48.648Z - success: ui-kit loaded
+2017-08-22T08:10:48.649Z - success: ui-grid loaded
+2017-08-22T08:10:48.654Z - success: scene loaded
+2017-08-22T08:10:48.656Z - success: sprite-editor loaded
+2017-08-22T08:10:48.659Z - success: store loaded
+2017-08-22T08:10:48.663Z - success: timeline loaded
+2017-08-22T08:10:48.663Z - normal: Loading builtin packages
+2017-08-22T08:10:48.665Z - success: asset-db-debugger loaded
+2017-08-22T08:10:48.666Z - success: code-editor loaded
+2017-08-22T08:10:48.666Z - success: color-picker loaded
+2017-08-22T08:10:48.668Z - success: console loaded
+2017-08-22T08:10:48.670Z - success: package-manager loaded
+2017-08-22T08:10:48.678Z - success: sdkbox loaded
+2017-08-22T08:10:48.681Z - success: tester loaded
+2017-08-22T08:10:48.683Z - success: ui-kit-preview-extra loaded
+2017-08-22T08:10:48.685Z - success: ui-kit-preview loaded
+2017-08-22T08:10:48.687Z - success: ui-tree loaded
+2017-08-22T08:10:49.464Z - normal: Initializing project D:\cocos\cocosDemo
+2017-08-22T08:10:49.469Z - normal: Loading packages
+2017-08-22T08:10:49.474Z - normal: Watching packages
+2017-08-22T08:10:49.485Z - normal: Run Application
+2017-08-22T08:10:50.052Z - success: preview server running at http://localhost:7456
+2017-08-22T08:10:53.598Z - normal: 1.5.1
+2017-08-22T08:26:03.905Z - normal: Compiled project javascript file successfully
+2017-08-22T08:31:07.498Z - normal: Compiled project javascript file successfully
+2017-08-22T08:38:15.503Z - normal: Compiled project javascript file successfully
+2017-08-22T08:41:09.987Z - normal: Compiled project javascript file successfully
+2017-08-22T08:42:22.661Z - normal: Compiled project javascript file successfully
+2017-08-22T08:43:06.435Z - normal: Compiled project javascript file successfully
+2017-08-22T08:43:46.770Z - normal: Compiled project javascript file successfully
+2017-08-22T08:44:44.383Z - normal: Compiled project javascript file successfully
+2017-08-22T08:45:04.823Z - normal: Compiled project javascript file successfully
+2017-08-22T08:49:16.095Z - normal: Compiled project javascript file successfully
+2017-08-22T08:53:24.200Z - normal: Compiled project javascript file successfully
+2017-08-22T08:53:58.477Z - normal: Compiled project javascript file successfully
+2017-08-22T08:54:54.426Z - normal: Compiled project javascript file successfully
+2017-08-22T08:55:29.446Z - normal: Compiled project javascript file successfully
+2017-08-22T08:56:31.003Z - normal: Compiled project javascript file successfully
+2017-08-22T08:58:37.877Z - normal: Compiled project javascript file successfully
+2017-08-22T09:01:18.647Z - normal: Compiled project javascript file successfully
+2017-08-22T09:06:57.211Z - normal: Compiled project javascript file successfully
+2017-08-22T09:07:53.913Z - normal: Compiled project javascript file successfully
+2017-08-22T09:08:15.689Z - normal: Compiled project javascript file successfully
+2017-08-22T09:08:46.398Z - normal: Compiled project javascript file successfully
+2017-08-22T09:09:57.008Z - normal: Compiled project javascript file successfully
+2017-08-22T09:10:12.863Z - normal: Compiled project javascript file successfully
+2017-08-22T09:11:39.526Z - normal: Compiled project javascript file successfully
+2017-08-22T09:14:20.195Z - normal: Compiled project javascript file successfully
+2017-08-22T09:15:02.609Z - normal: Compiled project javascript file successfully
+2017-08-22T09:15:32.928Z - normal: Compiled project javascript file successfully
+2017-08-22T09:16:31.581Z - normal: Compiled project javascript file successfully
+2017-08-22T09:17:25.076Z - normal: Compiled project javascript file successfully
+2017-08-22T09:18:54.056Z - normal: Compiled project javascript file successfully
+2017-08-22T09:19:26.420Z - normal: Compiled project javascript file successfully
+2017-08-22T09:19:57.604Z - normal: Compiled project javascript file successfully
+2017-08-22T09:20:31.545Z - normal: Compiled project javascript file successfully
+2017-08-22T09:22:11.332Z - normal: Compiled project javascript file successfully
+2017-08-22T09:24:01.071Z - normal: Compiled project javascript file successfully
+2017-08-22T09:25:14.312Z - normal: Compiled project javascript file successfully
+2017-08-22T09:27:26.773Z - normal: Compiled project javascript file successfully
+2017-08-22T09:28:31.801Z - normal: Compiled project javascript file successfully
+2017-08-22T09:28:56.421Z - normal: Compiled project javascript file successfully
+2017-08-22T09:29:31.019Z - normal: Compiled project javascript file successfully
+2017-08-22T09:30:47.310Z - normal: Compiled project javascript file successfully

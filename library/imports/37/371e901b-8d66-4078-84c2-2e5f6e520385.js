@@ -64,6 +64,18 @@ cc.Class({
             }
         }, self.node);
     },
+    onPlayOver: function onPlayOver() {
+        if (this.node.getPosition().x > this.overLine - this.node.width) {
+            this.node.x = this.overLine - this.node.width;
+            this.xSpeed = 0;
+            return;
+        }
+        if (this.node.getPosition().x < -this.overLine + this.node.width) {
+            this.node.x = -this.overLine + this.node.width;
+            this.xSpeed = 0;
+            return;
+        }
+    },
     // use this for initialization
     onLoad: function onLoad() {
         // 初始化跳跃动作
@@ -73,6 +85,8 @@ cc.Class({
         this.accRight = false;
         this.xSpeed = 0;
         this.setInputControl();
+        this.overLine = this.game.node.width / 2;
+        cc.log(this.node.width);
     },
 
     // called every frame, uncomment this function to activate update callback
@@ -86,6 +100,7 @@ cc.Class({
             this.xSpeed = this.maxMoveSpeed * this.xSpeed / Math.abs(this.xSpeed);
         };
         this.node.x += this.xSpeed * dt;
+        this.onPlayOver();
     }
 });
 
