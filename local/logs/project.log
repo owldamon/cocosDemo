@@ -1,1168 +1,140 @@
-2017-08-21T01:21:26.515Z - normal: Load ~/.CocosCreator/settings.json
-2017-08-21T01:21:26.518Z - normal: checking language setting...
-2017-08-21T01:21:26.518Z - normal: Language: zh
-2017-08-21T01:21:27.970Z - success: protocol editor-framework registered
-2017-08-21T01:21:27.970Z - success: protocol app registered
-2017-08-21T01:21:27.970Z - success: protocol theme registered
-2017-08-21T01:21:27.970Z - success: protocol profile registered
-2017-08-21T01:21:27.970Z - success: protocol packages registered
-2017-08-21T01:21:27.970Z - success: protocol unpack registerred
-2017-08-21T01:21:27.970Z - success: protocol disable-commonjs registerred
-2017-08-21T01:21:28.280Z - normal: connected!
-2017-08-21T01:21:28.286Z - normal: Check project D:\cocos\cocosDemo
-2017-08-21T01:21:28.292Z - normal: Initializing Cocos2d
-2017-08-21T01:21:28.509Z - normal: Initializing Asset Database
-2017-08-21T01:21:28.541Z - success: protocol uuid registerred
-2017-08-21T01:21:28.542Z - success: protocol db registerred
-2017-08-21T01:21:28.542Z - success: protocol thumbnail registerred
-2017-08-21T01:21:28.542Z - normal: Loading editor/builtin packages
-2017-08-21T01:21:28.563Z - success: anysdk loaded
-2017-08-21T01:21:28.680Z - success: assets loaded
-2017-08-21T01:21:28.682Z - success: builder loaded
-2017-08-21T01:21:28.685Z - success: hierarchy loaded
-2017-08-21T01:21:28.688Z - success: inspector loaded
-2017-08-21T01:21:28.690Z - success: keystore loaded
-2017-08-21T01:21:28.692Z - success: node-library loaded
-2017-08-21T01:21:28.696Z - success: package-asset loaded
-2017-08-21T01:21:28.698Z - success: preferences loaded
-2017-08-21T01:21:28.710Z - success: project-importer loaded
-2017-08-21T01:21:28.712Z - success: project-settings loaded
-2017-08-21T01:21:28.714Z - success: ui-kit loaded
-2017-08-21T01:21:28.715Z - success: ui-grid loaded
-2017-08-21T01:21:28.720Z - success: scene loaded
-2017-08-21T01:21:28.721Z - success: sprite-editor loaded
-2017-08-21T01:21:28.725Z - success: store loaded
-2017-08-21T01:21:28.731Z - success: timeline loaded
-2017-08-21T01:21:28.731Z - normal: Loading builtin packages
-2017-08-21T01:21:28.733Z - success: asset-db-debugger loaded
-2017-08-21T01:21:28.734Z - success: code-editor loaded
-2017-08-21T01:21:28.734Z - success: color-picker loaded
-2017-08-21T01:21:28.736Z - success: console loaded
-2017-08-21T01:21:28.738Z - success: package-manager loaded
-2017-08-21T01:21:28.746Z - success: sdkbox loaded
-2017-08-21T01:21:28.748Z - success: tester loaded
-2017-08-21T01:21:28.750Z - success: ui-kit-preview-extra loaded
-2017-08-21T01:21:28.753Z - success: ui-kit-preview loaded
-2017-08-21T01:21:28.757Z - success: ui-tree loaded
-2017-08-21T01:21:29.580Z - normal: Initializing project D:\cocos\cocosDemo
-2017-08-21T01:21:29.586Z - normal: Loading packages
-2017-08-21T01:21:29.591Z - normal: Watching packages
-2017-08-21T01:21:29.604Z - normal: Run Application
-2017-08-21T01:21:30.790Z - success: preview server running at http://localhost:7456
-2017-08-21T01:21:30.790Z - normal: Compiling scripts...
-2017-08-21T01:21:32.327Z - normal: Compiled project javascript file successfully
-2017-08-21T01:21:36.059Z - normal: 1.5.1
-2017-08-21T01:21:43.615Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2017-08-21T01:21:43.616Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
-2017-08-21T01:21:43.617Z - normal: Simulator: FRAME SCALE = 1.00
-2017-08-21T01:21:43.999Z - normal: Simulator: Ready for GLSL
-2017-08-21T01:21:43.999Z - normal: Simulator: Ready for OpenGL 2.0
-2017-08-21T01:21:44.018Z - normal: Simulator: 
-2017-08-21T01:21:44.018Z - normal: Simulator: {
-2017-08-21T01:21:44.018Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 378.78
-2017-08-21T01:21:44.018Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-08-21T01:21:44.018Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
-2017-08-21T01:21:44.018Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-08-21T01:21:44.019Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-08-21T01:21:44.019Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-08-21T01:21:44.019Z - normal: Simulator: 	gl.max_texture_size: 32768
-2017-08-21T01:21:44.019Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-08-21T01:21:44.019Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.renderer: GeForce GTX 1060 3GB/PCIe/SSE2
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.max_texture_units: 192
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-08-21T01:21:44.020Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-08-21T01:21:44.020Z - normal: Simulator: }
-2017-08-21T01:21:44.020Z - normal: Simulator: 
-2017-08-21T01:21:44.021Z - normal: Simulator: 
-2017-08-21T01:21:44.023Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-08-21T01:21:44.033Z - normal: Simulator: Project Config:
-2017-08-21T01:21:44.033Z - normal: Simulator:     project dir: E:\CocosCreator\resources\cocos2d-x\simulator\win32\
-2017-08-21T01:21:44.033Z - normal: Simulator:     writable path: $(PROJDIR)\
-2017-08-21T01:21:44.033Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2017-08-21T01:21:44.033Z - normal: Simulator:     frame size: 960 x 640
-2017-08-21T01:21:44.033Z - normal: Simulator:     frame scale: 1.00
-2017-08-21T01:21:44.033Z - normal: Simulator:     show console: NO
-2017-08-21T01:21:44.034Z - normal: Simulator:     write debug log: NO ()
-2017-08-21T01:21:44.034Z - normal: Simulator:     listen: 
-2017-08-21T01:21:44.034Z - normal: Simulator:     debugger: none
-2017-08-21T01:21:44.034Z - normal: Simulator:     add searching path:
-2017-08-21T01:21:44.034Z - normal: Simulator: 
-2017-08-21T01:21:44.034Z - normal: Simulator: 
-2017-08-21T01:21:44.034Z - normal: Simulator: 
-2017-08-21T01:21:44.034Z - normal: Simulator: ------------------------------------------------
-2017-08-21T01:21:44.034Z - normal: Simulator: LOAD Js FILE: main.js
-2017-08-21T01:21:44.035Z - normal: Simulator: ------------------------------------------------
-2017-08-21T01:21:44.195Z - normal: Simulator: Cocos2d-JS v3.14
-2017-08-21T01:21:44.417Z - normal: Simulator: iShow!
-2017-08-21T01:21:44.476Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T01:21:44.476Z - normal: Simulator: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
-2017-08-21T01:21:49.278Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T01:21:52.725Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T01:21:55.972Z - normal: Simulator: basic_object_finalize 03931740 ...
-2017-08-21T01:21:55.973Z - normal: Simulator: jsbindings: finalizing JS object 03931760 (WebSocket)
-2017-08-21T01:21:55.973Z - normal: Simulator: jsbindings: finalizing JS object 03931780 (SocketIO)
-2017-08-21T01:25:32.938Z - normal: Compiled project javascript file successfully
-2017-08-21T01:25:33.723Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2017-08-21T01:25:33.724Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
-2017-08-21T01:25:33.724Z - normal: Simulator: FRAME SCALE = 1.00
-2017-08-21T01:25:33.985Z - normal: Simulator: Ready for GLSL
-2017-08-21T01:25:33.986Z - normal: Simulator: Ready for OpenGL 2.0
-2017-08-21T01:25:33.995Z - normal: Simulator: 
-2017-08-21T01:25:33.995Z - normal: Simulator: {
-2017-08-21T01:25:33.995Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 378.78
-2017-08-21T01:25:33.995Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-08-21T01:25:33.996Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
-2017-08-21T01:25:33.996Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-08-21T01:25:33.996Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-08-21T01:25:33.996Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-08-21T01:25:33.996Z - normal: Simulator: 	gl.max_texture_size: 32768
-2017-08-21T01:25:33.996Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-08-21T01:25:33.996Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
-2017-08-21T01:25:33.996Z - normal: Simulator: 	gl.renderer: GeForce GTX 1060 3GB/PCIe/SSE2
-2017-08-21T01:25:33.996Z - normal: Simulator: 	gl.max_texture_units: 192
-2017-08-21T01:25:33.997Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-08-21T01:25:33.997Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-08-21T01:25:33.997Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-08-21T01:25:33.997Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-08-21T01:25:33.997Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-08-21T01:25:33.998Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-08-21T01:25:34.000Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-08-21T01:25:34.000Z - normal: Simulator: }
-2017-08-21T01:25:34.000Z - normal: Simulator: 
-2017-08-21T01:25:34.000Z - normal: Simulator: 
-2017-08-21T01:25:34.001Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-08-21T01:25:34.006Z - normal: Simulator: Project Config:
-2017-08-21T01:25:34.006Z - normal: Simulator:     project dir: E:\CocosCreator\resources\cocos2d-x\simulator\win32\
-2017-08-21T01:25:34.006Z - normal: Simulator:     writable path: $(PROJDIR)\
-2017-08-21T01:25:34.006Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2017-08-21T01:25:34.006Z - normal: Simulator:     frame size: 960 x 640
-2017-08-21T01:25:34.006Z - normal: Simulator:     frame scale: 1.00
-2017-08-21T01:25:34.006Z - normal: Simulator:     show console: NO
-2017-08-21T01:25:34.006Z - normal: Simulator:     write debug log: NO ()
-2017-08-21T01:25:34.007Z - normal: Simulator:     listen: 
-2017-08-21T01:25:34.007Z - normal: Simulator:     debugger: none
-2017-08-21T01:25:34.007Z - normal: Simulator:     add searching path:
-2017-08-21T01:25:34.007Z - normal: Simulator: 
-2017-08-21T01:25:34.007Z - normal: Simulator: 
-2017-08-21T01:25:34.007Z - normal: Simulator: 
-2017-08-21T01:25:34.009Z - normal: Simulator: ------------------------------------------------
-2017-08-21T01:25:34.009Z - normal: Simulator: LOAD Js FILE: main.js
-2017-08-21T01:25:34.009Z - normal: Simulator: ------------------------------------------------
-2017-08-21T01:25:34.068Z - normal: Simulator: Cocos2d-JS v3.14
-2017-08-21T01:25:34.267Z - normal: Simulator: iShow!
-2017-08-21T01:25:34.320Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T01:25:34.323Z - normal: Simulator: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
-2017-08-21T01:25:39.500Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T01:25:51.185Z - normal: Simulator: basic_object_finalize 07D31740 ...
-2017-08-21T01:25:51.185Z - normal: Simulator: jsbindings: finalizing JS object 07D31760 (WebSocket)
-2017-08-21T01:25:51.185Z - normal: Simulator: jsbindings: finalizing JS object 07D31780 (SocketIO)
-2017-08-21T02:14:44.477Z - normal: Compiled project javascript file successfully
-2017-08-21T05:07:55.988Z - normal: Compiled project javascript file successfully
-2017-08-21T05:09:42.403Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2017-08-21T05:09:42.405Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
-2017-08-21T05:09:42.405Z - normal: Simulator: FRAME SCALE = 1.00
-2017-08-21T05:09:42.790Z - normal: Simulator: Ready for GLSL
-2017-08-21T05:09:42.790Z - normal: Simulator: Ready for OpenGL 2.0
-2017-08-21T05:09:42.804Z - normal: Simulator: 
-2017-08-21T05:09:42.805Z - normal: Simulator: {
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 378.78
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-08-21T05:09:42.805Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
-2017-08-21T05:09:42.805Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-08-21T05:09:42.805Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-08-21T05:09:42.805Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.max_texture_size: 32768
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
-2017-08-21T05:09:42.805Z - normal: Simulator: 	gl.renderer: GeForce GTX 1060 3GB/PCIe/SSE2
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.max_texture_units: 192
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-08-21T05:09:42.806Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-08-21T05:09:42.806Z - normal: Simulator: }
-2017-08-21T05:09:42.806Z - normal: Simulator: 
-2017-08-21T05:09:42.806Z - normal: Simulator: 
-2017-08-21T05:09:42.806Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-08-21T05:09:42.815Z - normal: Simulator: Project Config:
-2017-08-21T05:09:42.816Z - normal: Simulator:     project dir: E:\CocosCreator\resources\cocos2d-x\simulator\win32\
-2017-08-21T05:09:42.816Z - normal: Simulator:     writable path: $(PROJDIR)\
-2017-08-21T05:09:42.816Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2017-08-21T05:09:42.816Z - normal: Simulator:     frame size: 960 x 640
-2017-08-21T05:09:42.816Z - normal: Simulator:     frame scale: 1.00
-2017-08-21T05:09:42.816Z - normal: Simulator:     show console: NO
-2017-08-21T05:09:42.816Z - normal: Simulator:     write debug log: NO ()
-2017-08-21T05:09:42.816Z - normal: Simulator:     listen: 
-2017-08-21T05:09:42.816Z - normal: Simulator:     debugger: none
-2017-08-21T05:09:42.817Z - normal: Simulator:     add searching path:
-2017-08-21T05:09:42.817Z - normal: Simulator: 
-2017-08-21T05:09:42.817Z - normal: Simulator: 
-2017-08-21T05:09:42.817Z - normal: Simulator: 
-2017-08-21T05:09:42.817Z - normal: Simulator: ------------------------------------------------
-2017-08-21T05:09:42.826Z - normal: Simulator: LOAD Js FILE: main.js
-2017-08-21T05:09:42.827Z - normal: Simulator: ------------------------------------------------
-2017-08-21T05:09:43.042Z - normal: Simulator: Cocos2d-JS v3.14
-2017-08-21T05:09:43.273Z - normal: Simulator: iShow!
-2017-08-21T05:09:43.332Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T05:09:43.332Z - normal: Simulator: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
-2017-08-21T05:09:45.856Z - normal: Simulator: I/AudioEngine-Win32 (170): OpenAL was initialized successfully!
-2017-08-21T05:09:45.856Z - normal: Simulator: V/AudioCache (70): AudioCache() 08FFD4A4, id=1
-2017-08-21T05:09:45.856Z - normal: Simulator: V/AudioCache (128): readDataTask begin, cache id=1
-2017-08-21T05:09:45.856Z - normal: Simulator: V/AudioCache (241): pcm buffer was loaded successfully, total frames: 7541, total read frames: 7541, adjust frames: 0, remainingFrames: 0
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=1
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioCache (293): readDataTask end, cache id=1
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=1
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=1
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=1
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=2
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=2
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=2
-2017-08-21T05:09:45.857Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=2
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=3
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=3
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=3
-2017-08-21T05:09:45.858Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:45.859Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:45.859Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=3
-2017-08-21T05:09:45.859Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=4
-2017-08-21T05:09:45.860Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:45.860Z - normal: Simulator: 
-2017-08-21T05:09:45.874Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:45.874Z - normal: Simulator: 
-2017-08-21T05:09:45.890Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:45.891Z - normal: Simulator: 
-2017-08-21T05:09:45.907Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:45.907Z - normal: Simulator: 
-2017-08-21T05:09:47.993Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=4
-2017-08-21T05:09:47.993Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=4
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=4
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=5
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=5
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=5
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:47.994Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=5
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=6
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=6
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=6
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=6
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=7
-2017-08-21T05:09:47.995Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09248D28), id=7
-2017-08-21T05:09:47.996Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=7
-2017-08-21T05:09:47.996Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:47.997Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:47.997Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=7
-2017-08-21T05:09:47.998Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:47.998Z - normal: Simulator: 
-2017-08-21T05:09:48.015Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.015Z - normal: Simulator: 
-2017-08-21T05:09:48.023Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.024Z - normal: Simulator: 
-2017-08-21T05:09:48.042Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.043Z - normal: Simulator: 
-2017-08-21T05:09:48.056Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.056Z - normal: Simulator: 
-2017-08-21T05:09:48.076Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.076Z - normal: Simulator: 
-2017-08-21T05:09:48.091Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.091Z - normal: Simulator: 
-2017-08-21T05:09:48.107Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.107Z - normal: Simulator: 
-2017-08-21T05:09:48.124Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.124Z - normal: Simulator: 
-2017-08-21T05:09:48.145Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.145Z - normal: Simulator: 
-2017-08-21T05:09:48.173Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=8
-2017-08-21T05:09:48.173Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.173Z - normal: Simulator: 
-2017-08-21T05:09:48.190Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.190Z - normal: Simulator: 
-2017-08-21T05:09:48.211Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.212Z - normal: Simulator: 
-2017-08-21T05:09:48.224Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.224Z - normal: Simulator: 
-2017-08-21T05:09:48.240Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:48.240Z - normal: Simulator: 
-2017-08-21T05:09:49.223Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09249E98), id=8
-2017-08-21T05:09:49.223Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=8
-2017-08-21T05:09:49.223Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:49.223Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:49.223Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=8
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=9
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09249E98), id=9
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=9
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:49.224Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=9
-2017-08-21T05:09:49.225Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.225Z - normal: Simulator: 
-2017-08-21T05:09:49.240Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.240Z - normal: Simulator: 
-2017-08-21T05:09:49.257Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.257Z - normal: Simulator: 
-2017-08-21T05:09:49.274Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.274Z - normal: Simulator: 
-2017-08-21T05:09:49.289Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.290Z - normal: Simulator: 
-2017-08-21T05:09:49.307Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.307Z - normal: Simulator: 
-2017-08-21T05:09:49.328Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.329Z - normal: Simulator: 
-2017-08-21T05:09:49.405Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=10
-2017-08-21T05:09:49.406Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.406Z - normal: Simulator: 
-2017-08-21T05:09:49.428Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.428Z - normal: Simulator: 
-2017-08-21T05:09:49.439Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.439Z - normal: Simulator: 
-2017-08-21T05:09:49.460Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.460Z - normal: Simulator: 
-2017-08-21T05:09:49.474Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.474Z - normal: Simulator: 
-2017-08-21T05:09:49.492Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.492Z - normal: Simulator: 
-2017-08-21T05:09:49.506Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.506Z - normal: Simulator: 
-2017-08-21T05:09:49.523Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.523Z - normal: Simulator: 
-2017-08-21T05:09:49.539Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.540Z - normal: Simulator: 
-2017-08-21T05:09:49.557Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.557Z - normal: Simulator: 
-2017-08-21T05:09:49.574Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.575Z - normal: Simulator: 
-2017-08-21T05:09:49.606Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.606Z - normal: Simulator: 
-2017-08-21T05:09:49.624Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.624Z - normal: Simulator: 
-2017-08-21T05:09:49.644Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.645Z - normal: Simulator: 
-2017-08-21T05:09:49.657Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.657Z - normal: Simulator: 
-2017-08-21T05:09:49.679Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.679Z - normal: Simulator: 
-2017-08-21T05:09:49.690Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.690Z - normal: Simulator: 
-2017-08-21T05:09:49.708Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.709Z - normal: Simulator: 
-2017-08-21T05:09:49.724Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.724Z - normal: Simulator: 
-2017-08-21T05:09:49.739Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.740Z - normal: Simulator: 
-2017-08-21T05:09:49.756Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.757Z - normal: Simulator: 
-2017-08-21T05:09:49.773Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (0936D508), id=10
-2017-08-21T05:09:49.774Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=10
-2017-08-21T05:09:49.774Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:49.774Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:49.774Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=10
-2017-08-21T05:09:49.774Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.774Z - normal: Simulator: 
-2017-08-21T05:09:49.790Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.791Z - normal: Simulator: 
-2017-08-21T05:09:49.808Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.808Z - normal: Simulator: 
-2017-08-21T05:09:49.830Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.830Z - normal: Simulator: 
-2017-08-21T05:09:49.840Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.840Z - normal: Simulator: 
-2017-08-21T05:09:49.857Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.858Z - normal: Simulator: 
-2017-08-21T05:09:49.874Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.874Z - normal: Simulator: 
-2017-08-21T05:09:49.988Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=11
-2017-08-21T05:09:49.989Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:49.989Z - normal: Simulator: 
-2017-08-21T05:09:50.007Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.007Z - normal: Simulator: 
-2017-08-21T05:09:50.024Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.024Z - normal: Simulator: 
-2017-08-21T05:09:50.045Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.045Z - normal: Simulator: 
-2017-08-21T05:09:50.056Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.056Z - normal: Simulator: 
-2017-08-21T05:09:50.077Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.078Z - normal: Simulator: 
-2017-08-21T05:09:50.089Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.090Z - normal: Simulator: 
-2017-08-21T05:09:50.106Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.107Z - normal: Simulator: 
-2017-08-21T05:09:50.124Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.124Z - normal: Simulator: 
-2017-08-21T05:09:50.144Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.145Z - normal: Simulator: 
-2017-08-21T05:09:50.157Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.158Z - normal: Simulator: 
-2017-08-21T05:09:50.177Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.178Z - normal: Simulator: 
-2017-08-21T05:09:50.189Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.190Z - normal: Simulator: 
-2017-08-21T05:09:50.208Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.209Z - normal: Simulator: 
-2017-08-21T05:09:50.224Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.224Z - normal: Simulator: 
-2017-08-21T05:09:50.239Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.239Z - normal: Simulator: 
-2017-08-21T05:09:50.257Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.257Z - normal: Simulator: 
-2017-08-21T05:09:50.274Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.274Z - normal: Simulator: 
-2017-08-21T05:09:50.291Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.293Z - normal: Simulator: 
-2017-08-21T05:09:50.307Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.307Z - normal: Simulator: 
-2017-08-21T05:09:50.326Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.326Z - normal: Simulator: 
-2017-08-21T05:09:50.340Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.340Z - normal: Simulator: 
-2017-08-21T05:09:50.357Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.357Z - normal: Simulator: 
-2017-08-21T05:09:50.374Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (09345BE0), id=11
-2017-08-21T05:09:50.374Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=11
-2017-08-21T05:09:50.374Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:50.374Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:50.374Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=11
-2017-08-21T05:09:50.374Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.375Z - normal: Simulator: 
-2017-08-21T05:09:50.392Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.393Z - normal: Simulator: 
-2017-08-21T05:09:50.407Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.407Z - normal: Simulator: 
-2017-08-21T05:09:50.428Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.428Z - normal: Simulator: 
-2017-08-21T05:09:50.440Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.440Z - normal: Simulator: 
-2017-08-21T05:09:50.456Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.456Z - normal: Simulator: 
-2017-08-21T05:09:50.476Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.476Z - normal: Simulator: 
-2017-08-21T05:09:50.494Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.494Z - normal: Simulator: 
-2017-08-21T05:09:50.510Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.511Z - normal: Simulator: 
-2017-08-21T05:09:50.525Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.526Z - normal: Simulator: 
-2017-08-21T05:09:50.539Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.540Z - normal: Simulator: 
-2017-08-21T05:09:50.573Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=12
-2017-08-21T05:09:50.574Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.575Z - normal: Simulator: 
-2017-08-21T05:09:50.588Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.589Z - normal: Simulator: 
-2017-08-21T05:09:50.609Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.610Z - normal: Simulator: 
-2017-08-21T05:09:50.623Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.623Z - normal: Simulator: 
-2017-08-21T05:09:50.640Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.640Z - normal: Simulator: 
-2017-08-21T05:09:50.658Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.658Z - normal: Simulator: 
-2017-08-21T05:09:50.675Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.675Z - normal: Simulator: 
-2017-08-21T05:09:50.690Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.690Z - normal: Simulator: 
-2017-08-21T05:09:50.706Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.707Z - normal: Simulator: 
-2017-08-21T05:09:50.725Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.726Z - normal: Simulator: 
-2017-08-21T05:09:50.739Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.739Z - normal: Simulator: 
-2017-08-21T05:09:50.760Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.760Z - normal: Simulator: 
-2017-08-21T05:09:50.773Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.774Z - normal: Simulator: 
-2017-08-21T05:09:50.790Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.790Z - normal: Simulator: 
-2017-08-21T05:09:50.806Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.806Z - normal: Simulator: 
-2017-08-21T05:09:50.828Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.828Z - normal: Simulator: 
-2017-08-21T05:09:50.840Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.840Z - normal: Simulator: 
-2017-08-21T05:09:50.857Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.857Z - normal: Simulator: 
-2017-08-21T05:09:50.873Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.874Z - normal: Simulator: 
-2017-08-21T05:09:50.889Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.889Z - normal: Simulator: 
-2017-08-21T05:09:50.906Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.907Z - normal: Simulator: 
-2017-08-21T05:09:50.924Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.924Z - normal: Simulator: 
-2017-08-21T05:09:50.939Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.939Z - normal: Simulator: 
-2017-08-21T05:09:50.956Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.957Z - normal: Simulator: 
-2017-08-21T05:09:50.975Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (093DF698), id=12
-2017-08-21T05:09:50.976Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=12
-2017-08-21T05:09:50.976Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:50.976Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:50.976Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=12
-2017-08-21T05:09:50.977Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.977Z - normal: Simulator: 
-2017-08-21T05:09:50.989Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:50.989Z - normal: Simulator: 
-2017-08-21T05:09:51.007Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.007Z - normal: Simulator: 
-2017-08-21T05:09:51.023Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.023Z - normal: Simulator: 
-2017-08-21T05:09:51.044Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.045Z - normal: Simulator: 
-2017-08-21T05:09:51.057Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.057Z - normal: Simulator: 
-2017-08-21T05:09:51.077Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.077Z - normal: Simulator: 
-2017-08-21T05:09:51.093Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.093Z - normal: Simulator: 
-2017-08-21T05:09:51.106Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.107Z - normal: Simulator: 
-2017-08-21T05:09:51.123Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.123Z - normal: Simulator: 
-2017-08-21T05:09:51.139Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.139Z - normal: Simulator: 
-2017-08-21T05:09:51.167Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.168Z - normal: Simulator: 
-2017-08-21T05:09:51.182Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=13
-2017-08-21T05:09:51.183Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.183Z - normal: Simulator: 
-2017-08-21T05:09:51.194Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.194Z - normal: Simulator: 
-2017-08-21T05:09:51.207Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.207Z - normal: Simulator: 
-2017-08-21T05:09:51.228Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.229Z - normal: Simulator: 
-2017-08-21T05:09:51.243Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.244Z - normal: Simulator: 
-2017-08-21T05:09:51.263Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.264Z - normal: Simulator: 
-2017-08-21T05:09:51.285Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.285Z - normal: Simulator: 
-2017-08-21T05:09:51.290Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.290Z - normal: Simulator: 
-2017-08-21T05:09:51.311Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.312Z - normal: Simulator: 
-2017-08-21T05:09:51.327Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.327Z - normal: Simulator: 
-2017-08-21T05:09:51.339Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.339Z - normal: Simulator: 
-2017-08-21T05:09:51.356Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.356Z - normal: Simulator: 
-2017-08-21T05:09:51.373Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.374Z - normal: Simulator: 
-2017-08-21T05:09:51.395Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.395Z - normal: Simulator: 
-2017-08-21T05:09:51.406Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.407Z - normal: Simulator: 
-2017-08-21T05:09:51.427Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.427Z - normal: Simulator: 
-2017-08-21T05:09:51.439Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.439Z - normal: Simulator: 
-2017-08-21T05:09:51.457Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.457Z - normal: Simulator: 
-2017-08-21T05:09:51.473Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.473Z - normal: Simulator: 
-2017-08-21T05:09:51.489Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.489Z - normal: Simulator: 
-2017-08-21T05:09:51.510Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.511Z - normal: Simulator: 
-2017-08-21T05:09:51.523Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.523Z - normal: Simulator: 
-2017-08-21T05:09:51.543Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.543Z - normal: Simulator: 
-2017-08-21T05:09:51.557Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.557Z - normal: Simulator: 
-2017-08-21T05:09:51.572Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (0940A968), id=13
-2017-08-21T05:09:51.573Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=13
-2017-08-21T05:09:51.573Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:51.574Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:51.574Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=13
-2017-08-21T05:09:51.574Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.574Z - normal: Simulator: 
-2017-08-21T05:09:51.589Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.589Z - normal: Simulator: 
-2017-08-21T05:09:51.608Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.609Z - normal: Simulator: 
-2017-08-21T05:09:51.623Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.624Z - normal: Simulator: 
-2017-08-21T05:09:51.641Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.641Z - normal: Simulator: 
-2017-08-21T05:09:51.656Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.656Z - normal: Simulator: 
-2017-08-21T05:09:51.673Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.673Z - normal: Simulator: 
-2017-08-21T05:09:51.691Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.692Z - normal: Simulator: 
-2017-08-21T05:09:51.706Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.707Z - normal: Simulator: 
-2017-08-21T05:09:51.727Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.728Z - normal: Simulator: 
-2017-08-21T05:09:51.740Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.740Z - normal: Simulator: 
-2017-08-21T05:09:51.772Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=14
-2017-08-21T05:09:51.772Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.772Z - normal: Simulator: 
-2017-08-21T05:09:51.793Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.793Z - normal: Simulator: 
-2017-08-21T05:09:51.806Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.806Z - normal: Simulator: 
-2017-08-21T05:09:51.822Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.823Z - normal: Simulator: 
-2017-08-21T05:09:51.839Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.839Z - normal: Simulator: 
-2017-08-21T05:09:51.860Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.860Z - normal: Simulator: 
-2017-08-21T05:09:51.873Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.873Z - normal: Simulator: 
-2017-08-21T05:09:51.890Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.891Z - normal: Simulator: 
-2017-08-21T05:09:51.906Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.906Z - normal: Simulator: 
-2017-08-21T05:09:51.923Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.923Z - normal: Simulator: 
-2017-08-21T05:09:51.944Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.944Z - normal: Simulator: 
-2017-08-21T05:09:51.956Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.957Z - normal: Simulator: 
-2017-08-21T05:09:51.973Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.974Z - normal: Simulator: 
-2017-08-21T05:09:51.989Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:51.989Z - normal: Simulator: 
-2017-08-21T05:09:52.006Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.006Z - normal: Simulator: 
-2017-08-21T05:09:52.024Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.024Z - normal: Simulator: 
-2017-08-21T05:09:52.041Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.041Z - normal: Simulator: 
-2017-08-21T05:09:52.061Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.061Z - normal: Simulator: 
-2017-08-21T05:09:52.072Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.073Z - normal: Simulator: 
-2017-08-21T05:09:52.089Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.089Z - normal: Simulator: 
-2017-08-21T05:09:52.108Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.108Z - normal: Simulator: 
-2017-08-21T05:09:52.123Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.124Z - normal: Simulator: 
-2017-08-21T05:09:52.139Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.139Z - normal: Simulator: 
-2017-08-21T05:09:52.156Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.156Z - normal: Simulator: 
-2017-08-21T05:09:52.172Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (0942E960), id=14
-2017-08-21T05:09:52.173Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=14
-2017-08-21T05:09:52.173Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:52.173Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:52.173Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=14
-2017-08-21T05:09:52.174Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.175Z - normal: Simulator: 
-2017-08-21T05:09:52.189Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.189Z - normal: Simulator: 
-2017-08-21T05:09:52.208Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.208Z - normal: Simulator: 
-2017-08-21T05:09:52.223Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.224Z - normal: Simulator: 
-2017-08-21T05:09:52.238Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.239Z - normal: Simulator: 
-2017-08-21T05:09:52.259Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.259Z - normal: Simulator: 
-2017-08-21T05:09:52.275Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.275Z - normal: Simulator: 
-2017-08-21T05:09:52.289Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.289Z - normal: Simulator: 
-2017-08-21T05:09:52.306Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.306Z - normal: Simulator: 
-2017-08-21T05:09:52.326Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.327Z - normal: Simulator: 
-2017-08-21T05:09:52.338Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.339Z - normal: Simulator: 
-2017-08-21T05:09:52.372Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=15
-2017-08-21T05:09:52.372Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.372Z - normal: Simulator: 
-2017-08-21T05:09:52.393Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.393Z - normal: Simulator: 
-2017-08-21T05:09:52.406Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.406Z - normal: Simulator: 
-2017-08-21T05:09:52.423Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.423Z - normal: Simulator: 
-2017-08-21T05:09:52.438Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.439Z - normal: Simulator: 
-2017-08-21T05:09:52.456Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.456Z - normal: Simulator: 
-2017-08-21T05:09:52.476Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.477Z - normal: Simulator: 
-2017-08-21T05:09:52.488Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.489Z - normal: Simulator: 
-2017-08-21T05:09:52.507Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.507Z - normal: Simulator: 
-2017-08-21T05:09:52.523Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.524Z - normal: Simulator: 
-2017-08-21T05:09:52.543Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.544Z - normal: Simulator: 
-2017-08-21T05:09:52.556Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.556Z - normal: Simulator: 
-2017-08-21T05:09:52.573Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.573Z - normal: Simulator: 
-2017-08-21T05:09:52.589Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.589Z - normal: Simulator: 
-2017-08-21T05:09:52.605Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.606Z - normal: Simulator: 
-2017-08-21T05:09:52.623Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.624Z - normal: Simulator: 
-2017-08-21T05:09:52.639Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.639Z - normal: Simulator: 
-2017-08-21T05:09:52.656Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.656Z - normal: Simulator: 
-2017-08-21T05:09:52.673Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.673Z - normal: Simulator: 
-2017-08-21T05:09:52.694Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.695Z - normal: Simulator: 
-2017-08-21T05:09:52.706Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.706Z - normal: Simulator: 
-2017-08-21T05:09:52.729Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.729Z - normal: Simulator: 
-2017-08-21T05:09:52.739Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.739Z - normal: Simulator: 
-2017-08-21T05:09:52.758Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.760Z - normal: Simulator: 
-2017-08-21T05:09:52.772Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (0941E940), id=15
-2017-08-21T05:09:52.773Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=15
-2017-08-21T05:09:52.773Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:09:52.773Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:09:52.773Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=15
-2017-08-21T05:09:52.774Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.775Z - normal: Simulator: 
-2017-08-21T05:09:52.790Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.790Z - normal: Simulator: 
-2017-08-21T05:09:52.805Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.806Z - normal: Simulator: 
-2017-08-21T05:09:52.832Z - error: Simulator: 79:TypeError: cc.audioEngine.playeffect is not a function
-    at a (D:\cocos\cocosDemo\library\bundle.project.js?009:NaN:0)
-2017-08-21T05:09:52.833Z - normal: Simulator: 
-2017-08-21T05:09:52.997Z - normal: Simulator: basic_object_finalize 07A31740 ...
-2017-08-21T05:09:52.997Z - normal: Simulator: jsbindings: finalizing JS object 07A31760 (WebSocket)
-2017-08-21T05:09:52.997Z - normal: Simulator: jsbindings: finalizing JS object 07A31780 (SocketIO)
-2017-08-21T05:10:28.856Z - normal: Compiled project javascript file successfully
-2017-08-21T05:10:29.612Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2017-08-21T05:10:29.613Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
-2017-08-21T05:10:29.614Z - normal: Simulator: FRAME SCALE = 1.00
-2017-08-21T05:10:29.865Z - normal: Simulator: Ready for GLSL
-2017-08-21T05:10:29.866Z - normal: Simulator: Ready for OpenGL 2.0
-2017-08-21T05:10:29.882Z - normal: Simulator: 
-2017-08-21T05:10:29.882Z - normal: Simulator: {
-2017-08-21T05:10:29.882Z - normal: Simulator: 	gl.version: 4.5.0 NVIDIA 378.78
-2017-08-21T05:10:29.882Z - normal: Simulator: 	gl.supports_NPOT: true
-2017-08-21T05:10:29.882Z - normal: Simulator: 	cocos2d.x.version: 1.5.0
-2017-08-21T05:10:29.882Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
-2017-08-21T05:10:29.882Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
-2017-08-21T05:10:29.882Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
-2017-08-21T05:10:29.882Z - normal: Simulator: 	gl.max_texture_size: 32768
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.vendor: NVIDIA Corporation
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.renderer: GeForce GTX 1060 3GB/PCIe/SSE2
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.max_texture_units: 192
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_ETC1: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_PVRTC: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_BGRA8888: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_vertex_array_object: true
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
-2017-08-21T05:10:29.883Z - normal: Simulator: 	gl.supports_OES_depth24: false
-2017-08-21T05:10:29.883Z - normal: Simulator: }
-2017-08-21T05:10:29.884Z - normal: Simulator: 
-2017-08-21T05:10:29.885Z - normal: Simulator: 
-2017-08-21T05:10:29.885Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
-2017-08-21T05:10:29.893Z - normal: Simulator: Project Config:
-2017-08-21T05:10:29.894Z - normal: Simulator:     project dir: E:\CocosCreator\resources\cocos2d-x\simulator\win32\
-2017-08-21T05:10:29.896Z - normal: Simulator:     writable path: $(PROJDIR)\
-2017-08-21T05:10:29.896Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2017-08-21T05:10:29.896Z - normal: Simulator:     frame size: 960 x 640
-2017-08-21T05:10:29.896Z - normal: Simulator:     frame scale: 1.00
-2017-08-21T05:10:29.896Z - normal: Simulator:     show console: NO
-2017-08-21T05:10:29.896Z - normal: Simulator:     write debug log: NO ()
-2017-08-21T05:10:29.896Z - normal: Simulator:     listen: 
-2017-08-21T05:10:29.896Z - normal: Simulator:     debugger: none
-2017-08-21T05:10:29.896Z - normal: Simulator:     add searching path:
-2017-08-21T05:10:29.896Z - normal: Simulator: 
-2017-08-21T05:10:29.897Z - normal: Simulator: 
-2017-08-21T05:10:29.897Z - normal: Simulator: 
-2017-08-21T05:10:29.902Z - normal: Simulator: ------------------------------------------------
-2017-08-21T05:10:29.902Z - normal: Simulator: LOAD Js FILE: main.js
-2017-08-21T05:10:29.902Z - normal: Simulator: ------------------------------------------------
-2017-08-21T05:10:29.954Z - normal: Simulator: Cocos2d-JS v3.14
-2017-08-21T05:10:30.159Z - normal: Simulator: iShow!
-2017-08-21T05:10:30.214Z - normal: Simulator: LabelTextFormatter error:can't find letter definition in font file for letter: 
-2017-08-21T05:10:30.214Z - normal: Simulator: cocos2d: QuadCommand: resizing index size from [-1] to [2560]
-2017-08-21T05:10:38.389Z - normal: Simulator: I/AudioEngine-Win32 (170): OpenAL was initialized successfully!
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioCache (70): AudioCache() 09070D3C, id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioCache (128): readDataTask begin, cache id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioCache (241): pcm buffer was loaded successfully, total frames: 7541, total read frames: 7541, adjust frames: 0, remainingFrames: 0
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioCache (293): readDataTask end, cache id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9AD0), id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=1
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=2
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9AD0), id=2
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=2
-2017-08-21T05:10:38.390Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=2
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=3
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9AD0), id=3
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=3
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=3
-2017-08-21T05:10:38.391Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=4
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=4
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=4
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=4
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=5
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=5
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=5
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=5
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=6
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=6
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=6
-2017-08-21T05:10:38.392Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=6
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=7
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=7
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=7
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=7
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=8
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=8
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=8
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.393Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=8
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=9
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=9
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=9
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=9
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=10
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=10
-2017-08-21T05:10:38.394Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=10
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=10
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=11
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=11
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=11
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=11
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=12
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=12
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=12
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:38.395Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=12
-2017-08-21T05:10:38.396Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=13
-2017-08-21T05:10:38.396Z - normal: Simulator: V/AudioPlayer (68)
-2017-08-21T05:10:43.738Z - normal: Simulator: : ~AudioPlayer() (092B9DA0), id=13
-2017-08-21T05:10:43.739Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=13
-2017-08-21T05:10:43.739Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.739Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=13
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=14
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=14
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=14
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.740Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.741Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=14
-2017-08-21T05:10:43.741Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=15
-2017-08-21T05:10:43.741Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=15
-2017-08-21T05:10:43.741Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=15
-2017-08-21T05:10:43.742Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.742Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.742Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=15
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=16
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=16
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=16
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=16
-2017-08-21T05:10:43.743Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=17
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=17
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=17
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=17
-2017-08-21T05:10:43.744Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=18
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092B9DA0), id=18
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=18
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=18
-2017-08-21T05:10:43.745Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=19
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092BA190), id=19
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=19
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=19
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=20
-2017-08-21T05:10:43.746Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092BA2B0), id=20
-2017-08-21T05:10:43.747Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=20
-2017-08-21T05:10:43.747Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.750Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.752Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=20
-2017-08-21T05:10:43.753Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=21
-2017-08-21T05:10:43.754Z - normal: Simulator: V/AudioPlayer (68): ~AudioPlayer() (092BA2B0), id=21
-2017-08-21T05:10:43.755Z - normal: Simulator: V/AudioPlayer (82): AudioPlayer::destroy begin, id=21
-2017-08-21T05:10:43.756Z - normal: Simulator: V/AudioPlayer (127): Before alSourceStop
-2017-08-21T05:10:43.757Z - normal: Simulator: V/AudioPlayer (129): Before alSourcei
-2017-08-21T05:10:43.759Z - normal: Simulator: V/AudioPlayer (135): AudioPlayer::destroy end, id=21
-2017-08-21T05:10:43.760Z - normal: Simulator: V/AudioPlayer (146): AudioPlayer::play2d, _alSource: 1, player id=22
-2017-08-21T05:10:43.761Z - normal: Simulator: basic_object_finalize 04331740 ...
-2017-08-21T05:10:43.761Z - normal: Simulator: jsbindings: finalizing JS object 04331760 (WebSocket)
-2017-08-21T05:10:43.762Z - normal: Simulator: jsbindings: finalizing JS object 04331780 (SocketIO)
-2017-08-21T13:03:25.077Z - info: shutdown preview server
+2017-08-22T06:14:01.456Z - normal: Load ~/.CocosCreator/settings.json
+2017-08-22T06:14:01.460Z - normal: checking language setting...
+2017-08-22T06:14:01.460Z - normal: Language: zh
+2017-08-22T06:14:03.198Z - success: protocol editor-framework registered
+2017-08-22T06:14:03.198Z - success: protocol app registered
+2017-08-22T06:14:03.198Z - success: protocol theme registered
+2017-08-22T06:14:03.198Z - success: protocol profile registered
+2017-08-22T06:14:03.198Z - success: protocol packages registered
+2017-08-22T06:14:03.198Z - success: protocol unpack registerred
+2017-08-22T06:14:03.199Z - success: protocol disable-commonjs registerred
+2017-08-22T06:14:03.463Z - normal: connected!
+2017-08-22T06:14:03.472Z - normal: Check project D:\cocos\cocosDemo
+2017-08-22T06:14:03.480Z - normal: Initializing Cocos2d
+2017-08-22T06:14:03.913Z - normal: Initializing Asset Database
+2017-08-22T06:14:03.958Z - success: protocol uuid registerred
+2017-08-22T06:14:03.958Z - success: protocol db registerred
+2017-08-22T06:14:03.958Z - success: protocol thumbnail registerred
+2017-08-22T06:14:03.958Z - normal: Loading editor/builtin packages
+2017-08-22T06:14:04.011Z - success: anysdk loaded
+2017-08-22T06:14:04.159Z - success: assets loaded
+2017-08-22T06:14:04.162Z - success: builder loaded
+2017-08-22T06:14:04.165Z - success: hierarchy loaded
+2017-08-22T06:14:04.167Z - success: inspector loaded
+2017-08-22T06:14:04.168Z - success: keystore loaded
+2017-08-22T06:14:04.170Z - success: node-library loaded
+2017-08-22T06:14:04.172Z - success: package-asset loaded
+2017-08-22T06:14:04.174Z - success: preferences loaded
+2017-08-22T06:14:04.190Z - success: project-importer loaded
+2017-08-22T06:14:04.192Z - success: project-settings loaded
+2017-08-22T06:14:04.194Z - success: ui-kit loaded
+2017-08-22T06:14:04.196Z - success: ui-grid loaded
+2017-08-22T06:14:04.198Z - success: scene loaded
+2017-08-22T06:14:04.200Z - success: sprite-editor loaded
+2017-08-22T06:14:04.203Z - success: store loaded
+2017-08-22T06:14:04.207Z - success: timeline loaded
+2017-08-22T06:14:04.207Z - normal: Loading builtin packages
+2017-08-22T06:14:04.214Z - success: asset-db-debugger loaded
+2017-08-22T06:14:04.216Z - success: code-editor loaded
+2017-08-22T06:14:04.222Z - success: color-picker loaded
+2017-08-22T06:14:04.224Z - success: console loaded
+2017-08-22T06:14:04.226Z - success: package-manager loaded
+2017-08-22T06:14:04.238Z - success: sdkbox loaded
+2017-08-22T06:14:04.244Z - success: tester loaded
+2017-08-22T06:14:04.247Z - success: ui-kit-preview-extra loaded
+2017-08-22T06:14:04.249Z - success: ui-kit-preview loaded
+2017-08-22T06:14:04.250Z - success: ui-tree loaded
+2017-08-22T06:14:05.425Z - normal: Initializing project D:\cocos\cocosDemo
+2017-08-22T06:14:05.434Z - normal: Loading packages
+2017-08-22T06:14:05.447Z - normal: Watching packages
+2017-08-22T06:14:05.469Z - normal: Run Application
+2017-08-22T06:14:06.765Z - success: preview server running at http://localhost:7456
+2017-08-22T06:14:06.765Z - normal: Compiling scripts...
+2017-08-22T06:14:08.345Z - normal: Compiled project javascript file successfully
+2017-08-22T06:14:12.371Z - normal: 1.5.1
+2017-08-22T06:14:49.940Z - error: 项目名不合法, 只能包含这些字符: [0-9], [a-z], [A-Z], [_]. 并且 [-] 在 android 上也不支持.
+    at Vue._build (E:\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:15139)
+    at Vue._build (app://bower_components/vue/dist/vue.js:220:74)
+    at eval (E:\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:14573)
+    at EventEmitter.<anonymous> (E:\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:5795)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-08-22T06:15:25.043Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\cocos\\cocosDemo\\build",
+  "debug": false,
+  "dest": "D:\\cocos\\cocosDemo\\build\\web-mobile",
+  "excludedModules": [],
+  "includeAnySDK": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.cocosDemo",
+  "platform": "web-mobile",
+  "previewHeight": 720,
+  "previewWidth": 1280,
+  "privateKey": "",
+  "renderMode": "0",
+  "scenes": [
+    {
+      "url": "db://assets/game.fire",
+      "uuid": "ab1e7d83-181b-4d46-bf38-47695282314e"
+    }
+  ],
+  "sourceMaps": false,
+  "startScene": "ab1e7d83-181b-4d46-bf38-47695282314e",
+  "template": "default",
+  "title": "EszCanJump",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "project": "D:\\cocos\\cocosDemo",
+  "projectName": "EszCanJump",
+  "runtimePath": "E:\\CocosCreator\\resources\\engine",
+  "debugBuildWorker": false
+}
+2017-08-22T06:15:25.046Z - normal: Building D:\cocos\cocosDemo
+2017-08-22T06:15:25.046Z - normal: Destination D:\cocos\cocosDemo\build\web-mobile
+2017-08-22T06:15:25.529Z - normal: Delete D:\cocos\cocosDemo\build\web-mobile\res/**/*
+2017-08-22T06:15:25.530Z - normal: Delete D:\cocos\cocosDemo\build\web-mobile\src/*/
+2017-08-22T06:15:27.151Z - normal: Compiled project javascript file successfully
+2017-08-22T06:15:27.151Z - normal: Start building assets
+2017-08-22T06:15:27.151Z - normal: Start spawn build-worker
+2017-08-22T06:15:28.003Z - normal: Finish spawn build-worker
+2017-08-22T06:15:28.003Z - normal: Start init build-worker
+2017-08-22T06:15:29.852Z - normal: 1.5.1
+2017-08-22T06:15:29.894Z - normal: Finish init build-worker
+2017-08-22T06:15:29.894Z - normal: Start build-assets in worker
+2017-08-22T06:15:30.170Z - normal: Finish build-assets in worker
+2017-08-22T06:15:30.176Z - normal: Finish building assets
+2017-08-22T06:15:30.185Z - normal: Start building raw assets
+2017-08-22T06:15:30.185Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\background.jpg to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\background.jpg
+2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\ground.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\ground.png
+2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\audio\score.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\score.mp3
+2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\star.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\star.png
+2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\textures\PurpleMonster.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\PurpleMonster.png
+2017-08-22T06:15:30.186Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\audio\jump.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\jump.mp3
+2017-08-22T06:15:30.187Z - normal: [build-raw-assets] Start copying D:\cocos\cocosDemo\assets\mikado_outline_shadow.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\mikado_outline_shadow.png
+2017-08-22T06:15:30.212Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\star.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\star.png
+2017-08-22T06:15:30.213Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\mikado_outline_shadow.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\mikado_outline_shadow.png
+2017-08-22T06:15:30.220Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\PurpleMonster.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\PurpleMonster.png
+2017-08-22T06:15:30.223Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\ground.png to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\ground.png
+2017-08-22T06:15:30.228Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\audio\jump.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\jump.mp3
+2017-08-22T06:15:30.234Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\textures\background.jpg to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\textures\background.jpg
+2017-08-22T06:15:30.234Z - normal: [build-raw-assets] Finish copying D:\cocos\cocosDemo\assets\audio\score.mp3 to D:\cocos\cocosDemo\build\web-mobile\res\raw-assets\audio\score.mp3
+2017-08-22T06:15:30.235Z - normal: Finish building raw assets
+2017-08-22T06:15:30.269Z - normal: Generating main.js from E:\CocosCreator\resources\static\build-templates\shares\main.js
+2017-08-22T06:15:30.284Z - normal: Generating html from E:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
+2017-08-22T06:15:30.293Z - normal: Built to "D:\cocos\cocosDemo\build\web-mobile" successfully

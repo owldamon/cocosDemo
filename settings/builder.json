@@ -1,0 +1,26 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.cocosDemo",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "ab1e7d83-181b-4d46-bf38-47695282314e",
+  "title": "EszCanJump",
+  "webOrientation": "auto"
+}
