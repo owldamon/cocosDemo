@@ -24,6 +24,9 @@ cc.Class({
       this.onPicked();
       return;
     }
+    var opacityRatio = 1 - this.game.timer / this.game.starDuration;
+    var minOpacity = 50;
+    this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
   },
   onPicked: function() {
     this.game.spawnNewStar();
@@ -32,10 +35,4 @@ cc.Class({
   },
 
 
-  // called every frame, uncomment this function to activate update callback
-  update: function(dt) {
-    var opacityRatio = 1 - this.game.timer / this.game.starDuration;
-    var minOpacity = 50;
-    this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
-  },
 });

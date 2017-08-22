@@ -4,9 +4,7 @@ cc._RF.push(module, '36f01Coe/VKr6+6eDKStYt5', 'star');
 
 "use strict";
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-cc.Class(_defineProperty({
+cc.Class({
   extends: cc.Component,
 
   properties: {
@@ -30,6 +28,9 @@ cc.Class(_defineProperty({
       this.onPicked();
       return;
     }
+    var opacityRatio = 1 - this.game.timer / this.game.starDuration;
+    var minOpacity = 50;
+    this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
   },
   onPicked: function onPicked() {
     this.game.spawnNewStar();
@@ -37,10 +38,6 @@ cc.Class(_defineProperty({
     this.node.destroy();
   }
 
-}, "update", function update(dt) {
-  var opacityRatio = 1 - this.game.timer / this.game.starDuration;
-  var minOpacity = 50;
-  this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
-}));
+});
 
 cc._RF.pop();

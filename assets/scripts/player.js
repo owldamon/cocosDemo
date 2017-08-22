@@ -10,6 +10,11 @@ cc.Class({
         maxMoveSpeed: 0,
         // 加速度
         accel: 0,
+        // 跳跃音效
+        jumpAudio: {
+            default: null,
+            url: cc.AudioClip
+        }
     },
     
     setJumpActon: function() {
@@ -17,8 +22,13 @@ cc.Class({
         var jumpUp = cc.moveBy(this.jumpDuration, cc.p(0, this.jumpHeight)).easing(cc.easeCubicActionOut());
         // 跳跃下降
         var jumpDown = cc.moveBy(this.jumpDuration, cc.p(0, -this.jumpHeight)).easing(cc.easeCubicActionIn());
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown));  
 
+        var callback = cc.callFunc(this.playJumpSound, this);
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));  
+
+    },
+    playJumpSound: function(){
+        cc.audioEngine.playEffect(this.jumpAudio, false);
     },
     setInputControl: function(){
         var self = this;

@@ -29,6 +29,10 @@ cc.Class({
     scoreDisplay: {
       default: null,
       type: cc.Label
+    },
+    scoreAudio: {
+      default: null,
+      url: cc.AudioClip
     }
   },
 
@@ -70,6 +74,8 @@ cc.Class({
     this.score += 1;
     // 更新 scoreDisplay Label 的文字
     this.scoreDisplay.string = 'Score: ' + this.score.toString();
+    // 播放得分音效
+    cc.audioEngine.playEffect(this.scoreAuio, false);
   },
   gameOver: function gameOver() {
     this.player.stopAllActions();
