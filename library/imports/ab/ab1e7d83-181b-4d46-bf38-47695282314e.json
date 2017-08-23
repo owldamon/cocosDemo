@@ -442,7 +442,7 @@
     },
     "_isSystemFontUsed": false,
     "_spacingX": 0,
-    "_N$string": "Score： 0",
+    "_N$string": "Score 0",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -481,8 +481,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
-      "height": 80
+      "width": 440,
+      "height": 40
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -490,7 +490,7 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 354,
+      "x": 0,
       "y": -252
     },
     "_skewX": 0,
@@ -516,7 +516,7 @@
     "_N$file": null,
     "_isSystemFontUsed": true,
     "_spacingX": 0,
-    "_N$string": "A 向左移动\nD 向右移动",
+    "_N$string": "点击屏幕左右移动小怪兽",
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",

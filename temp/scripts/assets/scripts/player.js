@@ -2,7 +2,7 @@
 cc._RF.push(module, '371e9AbjWZAeITCLl9uUgOF', 'player');
 // scripts/player.js
 
-"use strict";
+'use strict';
 
 cc.Class({
     extends: cc.Component,
@@ -34,6 +34,21 @@ cc.Class({
     },
     playJumpSound: function playJumpSound() {
         cc.audioEngine.playEffect(this.jumpAudio, false);
+    },
+    setTouchControl: function setTouchControl() {
+        this.game.node.on('touchstart', function (event) {
+            if (event.getLocationX() > this.game.node.width / 2) {
+                this.accLeft = false;
+                this.accRight = true;
+            } else {
+                this.accLeft = true;
+                this.accRight = false;
+            }
+        }, this);
+        this.game.node.on('touchend', function (event) {
+            this.accLeft = false;
+            this.accRight = false;
+        }, this);
     },
     setInputControl: function setInputControl() {
         var self = this;
@@ -85,8 +100,8 @@ cc.Class({
         this.accRight = false;
         this.xSpeed = 0;
         this.setInputControl();
+        this.setTouchControl();
         this.overLine = this.game.node.width / 2;
-        cc.log(this.node.width);
     },
 
     // called every frame, uncomment this function to activate update callback

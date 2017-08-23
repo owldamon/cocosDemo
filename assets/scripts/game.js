@@ -3,7 +3,7 @@ cc.Class({
 
   properties: {
     // 页面窗口
-    
+
     // 这个属性引用了星星预制资源
     starPrefab: {
       default: null,
@@ -33,7 +33,7 @@ cc.Class({
   },
 
   // use this for initialization
-  onLoad: function() {
+  onLoad: function () {
     // 获取地平面的 y 轴坐标
     this.groundY = this.ground.y + this.ground.height / 2;
 
@@ -44,7 +44,7 @@ cc.Class({
     this.score = 0;
     this.getCanvasSize();
   },
-  spawnNewStar: function() {
+  spawnNewStar: function () {
     // 使用给定的模板在场景中生成一个新节点
     var newStar = cc.instantiate(this.starPrefab);
     // 将新增的节点添加到 Canvas 节点下面
@@ -56,34 +56,35 @@ cc.Class({
     this.starDuration = this.minStarDuration + cc.random0To1() * (this.maxStarDuration - this.minStarDuration);
     this.timer = 0;
   },
-  getCanvasSize: function(){
+  getCanvasSize: function () {
     // 将game组件的实例传入怪物组件
     this.player.getComponent('player').game = this;
   },
-  getNewStarPosition: function() {
+  getNewStarPosition: function () {
     var randX = 0;
     // 根据地平面位置和主角跳跃高度，随机得到一个星星的 y 坐标
     var randY = this.groundY + cc.random0To1() * this.player.getComponent('player').jumpHeight + 50;
     // 根据屏幕宽度，随机得到一个星星 x 坐标
     var maxX = this.node.width / 2 - this.player.width;
-    
+
     randX = cc.randomMinus1To1() * maxX;
     // 返回星星坐标
     return cc.p(randX, randY);
   },
-  gainScore: function() {
+  gainScore: function () {
     this.score += 1;
     // 更新 scoreDisplay Label 的文字
     this.scoreDisplay.string = 'Score: ' + this.score.toString();
     // 播放得分音效
     cc.audioEngine.playEffect(this.scoreAudio, false);
+
   },
-  gameOver: function() {
+  gameOver: function () {
     this.player.stopAllActions();
     cc.director.loadScene('game');
   },
   // called every frame, uncomment this function to activate update callback
-  update: function(dt) {
+  update: function (dt) {
     if (this.timer > this.starDuration) {
       this.gameOver();
       return;

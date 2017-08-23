@@ -1,18 +1,22 @@
 {
-  "platform": "web-mobile",
-  "template": "default",
+  "androidStudio": true,
+  "apiLevel": "android-26",
+  "appABIs": [
+    "armeabi",
+    "armeabi-v7a",
+    "arm64-v8a"
+  ],
   "buildPath": "./build",
   "debug": false,
-  "sourceMaps": false,
-  "previewWidth": "1280",
-  "previewHeight": "720",
-  "useDebugKeystore": true,
-  "keystorePath": "",
-  "keystorePassword": "",
   "keystoreAlias": "",
   "keystoreAliasPassword": "",
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
+  "keystorePassword": "",
+  "keystorePath": "",
+  "platform": "android",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "sourceMaps": false,
+  "template": "default",
+  "useDebugKeystore": true,
   "vsVersion": "auto"
 }

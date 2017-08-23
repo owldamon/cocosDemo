@@ -30,6 +30,21 @@ cc.Class({
     playJumpSound: function () {
         cc.audioEngine.playEffect(this.jumpAudio, false);
     },
+    setTouchControl: function () {
+        this.game.node.on('touchstart', function (event) {
+            if (event.getLocationX() > this.game.node.width / 2) {
+                this.accLeft = false;
+                this.accRight = true;
+            } else {
+                this.accLeft = true;
+                this.accRight = false;
+            }
+        }, this)
+        this.game.node.on('touchend', function (event) {
+            this.accLeft = false;
+            this.accRight = false;
+        }, this)
+    },
     setInputControl: function () {
         var self = this;
         // 添加键盘控制
@@ -80,8 +95,8 @@ cc.Class({
         this.accRight = false;
         this.xSpeed = 0;
         this.setInputControl();
+        this.setTouchControl()
         this.overLine = this.game.node.width / 2;
-        cc.log(this.node.width);
     },
 
     // called every frame, uncomment this function to activate update callback
