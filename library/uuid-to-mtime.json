@@ -275,8 +275,8 @@
     "relativePath": "textures\\star.png"
   },
   "ab1e7d83-181b-4d46-bf38-47695282314e": {
-    "asset": 1503393445656,
-    "meta": 1503393445674,
+    "asset": 1503450751650,
+    "meta": 1503450751668,
     "relativePath": "game.fire"
   },
   "1fbf1127-faa7-46de-ae27-982fe22ab692": {
@@ -294,14 +294,14 @@
     "meta": 1503389135513,
     "relativePath": "scripts\\star.js"
   },
-  "22ab7096-5533-4838-9669-a010cd460caa": {
-    "asset": 1503394244075,
-    "meta": 1503394245669,
-    "relativePath": "scripts\\game.js"
-  },
   "371e901b-8d66-4078-84c2-2e5f6e520385": {
     "asset": 1503394226257,
     "meta": 1503394245669,
     "relativePath": "scripts\\player.js"
+  },
+  "22ab7096-5533-4838-9669-a010cd460caa": {
+    "asset": 1503450747213,
+    "meta": 1503450749375,
+    "relativePath": "scripts\\game.js"
   }
 }

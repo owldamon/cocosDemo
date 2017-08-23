@@ -72,6 +72,7 @@ cc.Class({
     var randY = this.groundY + cc.random0To1() * this.player.getComponent('player').jumpHeight + 50;
     // 根据屏幕宽度，随机得到一个星星 x 坐标
     var maxX = this.node.width / 2 - this.player.width;
+
     randX = cc.randomMinus1To1() * maxX;
     // 返回星星坐标
     return cc.p(randX, randY);
@@ -81,7 +82,7 @@ cc.Class({
     // 更新 scoreDisplay Label 的文字
     this.scoreDisplay.string = 'Score: ' + this.score.toString();
     // 播放得分音效
-    cc.audioEngine.playEffect(this.scoreAuio, false);
+    cc.audioEngine.playEffect(this.scoreAudio, false);
   },
   gameOver: function gameOver() {
     this.player.stopAllActions();
